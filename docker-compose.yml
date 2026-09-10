@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    container_name: mi-app-flask
+    ports:
+      - "5001:5000"
